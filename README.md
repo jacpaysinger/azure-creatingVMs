@@ -3,7 +3,7 @@
 </p>
 
 <h1>Creating Virtual Machines (Windows and Linux) in Microsoft Azure; and Configuring NSGs. </h1>
-In this project, I'll demonstrate how to create two separate virtual machines in Microsoft Azure. I'll show how to configure the Network Security Groups to allow all web traffic to prepare the VMs for our honeypot. <br />
+In this project, I'll demonstrate how to create two separate virtual machines in Microsoft Azure. I'll show how to configure the Network Security Groups (NSG) to allow all web traffic to prepare the VMs for our honeypot. <br />
 
 
 <h2>Environments and Technologies Used</h2>
