@@ -3,7 +3,7 @@
 </p>
 
 <h1>Creating Virtual Machines (Windows and Linux) in Microsoft Azure; and Configuring NSGs. </h1>
-In this tutorial, I'll demonstrate how to create two separate virtual machines in Microsoft Azure. I'll show how to configure the Network Security Groups to allow all web traffic to prepare the VMs for our honeypot. <br />
+In this project, I'll demonstrate how to create two separate virtual machines in Microsoft Azure. I'll show how to configure the Network Security Groups to allow all web traffic to prepare the VMs for our honeypot. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -83,6 +83,6 @@ In MS Azure navigate to Network Secruity Groups and select VM1 (windows-vm). Del
 <a href="https://ibb.co/qBQyHSn"><img src="https://i.ibb.co/R2wvXFS/Untitled-7.png" alt="Untitled-7" border="0"></a>
 </p>
 <p>
-Select to add a new rule. Change the "destination port ranges" field to " * " (this represents "any"). Edit the name of this rule to "DANGER_AllowAnyCustomAnyInbound" and select "Add" to add this new rule. Repeat the exact same steps for VM2 (linux-vm). 
+Select to add a new rule. Change the "destination port ranges" field to " * " (this represents "any"). Edit the name of this rule to "DANGER_AllowAnyCustomAnyInbound" and select "Add" to add this new rule. Repeat the same steps for VM2 (linux-vm). 
 </p>
 <br />
